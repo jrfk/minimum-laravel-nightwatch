@@ -33,6 +33,8 @@ jobs:
         # Build and test the project, then
         # deploy to Azure Web App.
         npm install
+    - name: run server
+      run: php artisan serve
     - name: npm test
       run: |
         # Build and test the project, then
