@@ -41,5 +41,3 @@ jobs:
         # Build and test the project, then
         # deploy to Azure Web App.
         npm run e2e
-        env:
-          BROWSER: chrome        
