@@ -10,14 +10,7 @@
     "default": {
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true,
-        "acceptSslCerts": true,
-        "chromeOptions": {
-          "prefs": {
-            "intl.accept_languages": "en-US,en"
-          },
-          "args": ["--headless"]
-        }
+        "javascriptEnabled": true
       }
     }
   }
