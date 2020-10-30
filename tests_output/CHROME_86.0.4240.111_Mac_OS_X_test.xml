@@ -5,9 +5,9 @@
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="0.4020" timestamp="">
+    tests="1" time="0.2850" timestamp="">
   
-    <testcase name="住所登録:テストユーザログイン" classname="test" time="0.4020" assertions="2">
+    <testcase name="最小構成のテストだよ:for github actions" classname="test" time="0.2850" assertions="2">
 
     
 
