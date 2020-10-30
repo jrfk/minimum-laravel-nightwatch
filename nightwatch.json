@@ -10,7 +10,10 @@
     "default": {
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true
+        "javascriptEnabled": true,
+        "chromeOptions": {
+          "args": ["--headless"]
+        }
       }
     }
   }
