@@ -28,13 +28,6 @@ jobs:
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
 
-    - name: secret use check
-      run: |
-          echo ${{ secrets.TEST }} >> test.md
-          cat test.md
-          echo ${{ secrets.JSON_SAMPLE }} >> test.md
-          cat test.md
-
     - name: Cache node modules
       uses: actions/cache@v2
       env:
