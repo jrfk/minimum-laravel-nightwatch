@@ -35,6 +35,7 @@ jobs:
         npm install
     - name: run server
       run: php artisan serve >/dev/null 2>&1 &
+    - uses: nanasess/setup-chromedriver@master
     - name: npm test
       run: |
         # Build and test the project, then
